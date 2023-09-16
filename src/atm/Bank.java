@@ -124,4 +124,12 @@ public class Bank {
     public void addAccount(Account newAccount) {
         this.accounts.add(newAccount);
     }
+
+    /**
+     * Get the name of the bank
+     * @return  the name of the bank
+     */
+    public String getName() {
+        return this.name;
+    }
 }
